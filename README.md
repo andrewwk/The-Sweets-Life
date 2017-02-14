@@ -9,9 +9,7 @@ You can use a modern telecomm API service such as Twilio to implement the commun
 
 When an order is placed the restaurant is phoned and the order is read out to them. The restaurant can then specify how long it will take to fulfill it. Once they provide this information, the website updates for the client and also notifies them via SMS.
 
-Group Members: 
-  -Thomas Kilgour
-  -Parshant Micoo
+Group Members: Thomas Kilgour, Parshant Micoo
   
 ## Goals/Additional Features for Improvement
 1. Allow clients to pay for their order online, using Stripe integration for implementing secure e-commerce. If implemented,      the clients would choose wether to pay online or at the counter
