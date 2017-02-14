@@ -19,7 +19,7 @@ Group Members: Thomas Kilgour, Parshant Micoo
 
 ## Stack Requirement
 1. ES6 for server-side (Node) code
-2. ES5 for front-end code
+2. ES5 (ES6 permitted) for front-end code
 3. Node
 4. Express
   - RESTful routes
