@@ -1,5 +1,31 @@
 # Node Skeleton
 
+## Description
+### Lighthouse Labs Midterm Project
+A food ordering experience for a single restaurant. Hungry clients of this fictitious restaurant can visit its website, select one or more dishes and place an order for pick-up. They will receive a notification when their order is ready.
+
+The restaurant and client both need to be notified since this app serves as a middle-man.
+
+You can use a modern telecomm API service such as Twilio to implement the communication from the website to the client and restaurant.
+
+When an order is placed the restaurant is phoned and the order is read out to them. The restaurant can then specify how long it will take to fulfill it. Once they provide this information, the website updates for the client and also notifies them via SMS.
+
+### Stack Requirement
+1. ES6 for server-side (Node) code
+2. ES5 for front-end code
+3. Node
+4. Express
+  -RESTful routes
+  -Using AJAX or complete SPA approach is optional
+5. One of the following two CSS grid and UI frameworks
+  -Bootstrap 3
+  _Zurb Foundation 5
+6. jQuery
+7. SASS for styling
+8. PostgreSQL for DB
+9. Knex.js for querying and migrations
+10. Git for version control
+
 ## Project Setup
 
 1. Create your own empty repo on GitHub
