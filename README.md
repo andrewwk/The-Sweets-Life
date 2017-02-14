@@ -1,7 +1,6 @@
-# Node Skeleton
+# Lighthouse Labs Midterm Project
 
 ## Description
-### Lighthouse Labs Midterm Project
 A food ordering experience for a single restaurant. Hungry clients of this fictitious restaurant can visit its website, select one or more dishes and place an order for pick-up. They will receive a notification when their order is ready.
 
 The restaurant and client both need to be notified since this app serves as a middle-man.
@@ -10,31 +9,31 @@ You can use a modern telecomm API service such as Twilio to implement the commun
 
 When an order is placed the restaurant is phoned and the order is read out to them. The restaurant can then specify how long it will take to fulfill it. Once they provide this information, the website updates for the client and also notifies them via SMS.
 
-### Stack Requirement
+Group Members: 
+  -Thomas Kilgour
+  -Parshant Micoo
+  
+## Goals/Additional Features for Improvement
+1. Allow clients to pay for their order online, using Stripe integration for implementing secure e-commerce. If implemented,      the clients would choose wether to pay online or at the counter
+2. Allow the restaurant owner to view their orders
+3. Allow the restaurant owner to manage their dishes (prices, photos, descriptions, etc.)
+4. Support for multiple restaurants instead of just the one (making it a multi-tenant SaaS)
+
+## Stack Requirement
 1. ES6 for server-side (Node) code
 2. ES5 for front-end code
 3. Node
 4. Express
-  -RESTful routes
-  -Using AJAX or complete SPA approach is optional
+  - RESTful routes
+  - Using AJAX or complete SPA approach is optional
 5. One of the following two CSS grid and UI frameworks
-  -Bootstrap 3
-  _Zurb Foundation 5
+  - Bootstrap 3
+  - Zurb Foundation 5
 6. jQuery
 7. SASS for styling
 8. PostgreSQL for DB
 9. Knex.js for querying and migrations
 10. Git for version control
-
-## Project Setup
-
-1. Create your own empty repo on GitHub
-2. Clone this repository (do not fork)
-  - Suggestion: When cloning, specify a different folder name that is relevant to your project
-3. Remove the git remote: `git remote rm origin`
-4. Add a remote for your origin: `git remote add origin <your github repo URL>`
-5. Push to the new origin: `git push -u origin master`
-6. Verify that the skeleton code now shows up in your repo on GitHub
 
 ## Getting Started
 
